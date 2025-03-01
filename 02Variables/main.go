@@ -5,7 +5,6 @@ import (
 )
 //public
 const LoggedInToken string = "xyz"  
-
 func main() {
 	var name string = "tejas"
 	fmt.Println(name)
@@ -30,8 +29,11 @@ func main() {
 	//mynName = 3 gives an error
 
 	//no var style
-
+	// := this operator is called walrus operator
+	// it is used to declare and assign value to a variable
 	totalUsers := 2000
 	fmt.Println(totalUsers)
+
+	fmt.Printf("%b \n", 42424242)
 
 }
